@@ -973,8 +973,8 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
-	min-width: 220px;
+	background: transparent;
+	min-width: 200px;
 	min-height: 66px;
 	position: absolute;
 	left: 10px;
