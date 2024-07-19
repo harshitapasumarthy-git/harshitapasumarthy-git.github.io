@@ -50,9 +50,9 @@ const Projects = () => {
            
             
             <a href={project.url} target="_blank" rel="noopener noreferrer">
-            <FaGithub />
+            {project.name}
             </a>
-            {'  '} {project.name}
+       
           </li>
         ))}
       {/* </ol> */}

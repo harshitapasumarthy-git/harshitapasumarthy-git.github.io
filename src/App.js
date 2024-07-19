@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    // document.write("Harshita")
+    document.title = 'Harshita';
   }, []);
   return (
     <div className="App">
