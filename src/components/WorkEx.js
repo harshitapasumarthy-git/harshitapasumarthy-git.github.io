@@ -16,13 +16,13 @@ const WorkExperience = () => {
         </li>
         <li>
           <img src={shell_logo} alt="Shell Logo" className="logo" />
-          <strong>Software Engineering - Data</strong> 
+          <strong>Software Engineer - Data</strong> 
           <br />
           <span className="date">Jul 2020 - Dec 2022</span>
         </li>
         <li>
           <img src={shell_logo} alt="Shell Intern Logo" className="logo" />
-          <strong>Software Engineering Intern</strong> 
+          <strong>Software Engineer - Data Intern</strong> 
           <br />
           <span className="date">Aug 2019 - Jun 2020</span>
         </li>
