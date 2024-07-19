@@ -1,7 +1,7 @@
 .main-content {
     padding: 20px;
     flex: 1;
-    font-size: 30px;
+    font-size: 15px;
   }
   
   .main-content section {
@@ -9,11 +9,53 @@
   }
   
   .main-content h1 {
-    font-size: 40px;
+    font-size: 20px;
   }
   
   .main-content h2 {
     font-size: 1.5em;
     margin-top: 20px;
   }
+  #work-experience {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  #work-experience img.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+  }
+  #work-experience h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+  }
   
+  #work-experience ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #work-experience li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #work-experience img.logo {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  #work-experience strong {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .date {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+    padding-left: 10px;
+  }

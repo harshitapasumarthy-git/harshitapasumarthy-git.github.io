@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <section id="education">
+    <section id="work-experience">
       <h2>Education</h2>
       <p>
         <strong>Masters in Computer Science</strong> -  UTA - Jan 2023 - Dec 2024

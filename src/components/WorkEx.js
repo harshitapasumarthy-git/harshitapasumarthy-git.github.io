@@ -1,15 +1,34 @@
 import React from 'react';
-
-const WorkEx = () => {
+import '../../src/MainContent.css';
+import shell_logo from '../image/shell_logo.png'
+import uta_logo from '../image/uta_logo.png'
+const WorkExperience = () => {
   return (
-    <section id="workex">
-      <h2> Work Experience</h2>
-     
-      <li>Graduate Student Data Analyst at Office of Provost - Aug 2023 - Jul 2024 </li>
-      <li>Software Engineering - Data at Shell - Jul 2020 - Dec 2022 </li>
-      <li> Software Engineering Intern at Shell - Aug 2019 - Jun 2020</li>
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <img src={uta_logo} alt="Office of Provost Logo" className="logo" />
+          <strong>Graduate Student Data Analyst</strong> 
+          <br />
+           <span className="date">Aug 2023 - Jul 2024</span>
+         
+        </li>
+        <li>
+          <img src={shell_logo} alt="Shell Logo" className="logo" />
+          <strong>Software Engineering - Data</strong> 
+          <br />
+          <span className="date">Jul 2020 - Dec 2022</span>
+        </li>
+        <li>
+          <img src={shell_logo} alt="Shell Intern Logo" className="logo" />
+          <strong>Software Engineering Intern</strong> 
+          <br />
+          <span className="date">Aug 2019 - Jun 2020</span>
+        </li>
+      </ul>
     </section>
   );
 };
 
-export default WorkEx;
+export default WorkExperience;
