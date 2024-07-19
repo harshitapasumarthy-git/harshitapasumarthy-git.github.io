@@ -1,6 +1,7 @@
 .main-content {
     padding: 20px;
     flex: 1;
+    font-size: 30px;
   }
   
   .main-content section {
@@ -8,7 +9,7 @@
   }
   
   .main-content h1 {
-    font-size: 2em;
+    font-size: 40px;
   }
   
   .main-content h2 {

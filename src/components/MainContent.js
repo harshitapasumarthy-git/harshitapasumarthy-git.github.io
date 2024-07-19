@@ -1,6 +1,9 @@
 import React from 'react';
 import '../../src/MainContent.css';
-
+import Education from './Education';
+import Interests from './Interests';
+import Projects from './Projects';
+import WorkEx from './WorkEx';
 const MainContent = () => {
   return (
     <main className="main-content">
@@ -10,7 +13,23 @@ const MainContent = () => {
       </section> */}
       <section>
         <h2>About Me</h2>
-        <p>Naturally curious and observant...</p>
+        <ul>
+        <li>Naturally curious</li> 
+        <li> Resilient </li>
+        <li>Persistent</li>
+         </ul>
+      </section>
+      <section>
+     <Education/>
+      </section>
+      <section>
+        <Projects/>
+      </section>
+      <section>
+        <WorkEx/>
+      </section>
+      <section>
+        <Interests/>
       </section>
       {/* Add more sections as needed */}
     </main>
