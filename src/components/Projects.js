@@ -1,8 +1,12 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+// import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
   const projectList = [
+    {
+    name: 'Memora - A Gen AI based react application using GPT to create mindmaps, flashcards, quizzes based on the transcripts/lecture notes' ,
+    url:'https://devpost.com/software/memora-4n0frp'
+    },
     {
       name: 'Philia - A Generative AI cross platform mobile application using GPT to create posts in social media',
       url: 'https://devpost.com/software/philia-4xy8h9',
@@ -39,6 +43,7 @@ const Projects = () => {
       name: 'Toy Search Engine using NLP (TF-IDF) from scratch',
       url: 'https://github.com/harshitapasumarthy-git/ToySearchEngine',
     },
+   
   ];
 
   return (
